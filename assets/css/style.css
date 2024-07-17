@@ -19,10 +19,12 @@
     justify-content: space-between;
 }
 .button{
-    width:211px;
-    height:78px;
     background-color: black;
     color:white;
+    padding: 20px;
+    width: 33%;
+    height: 33%;
+    margin-bottom : 15px;
 
 }
 
