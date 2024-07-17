@@ -9,18 +9,21 @@
     margin-left: 24px;
     margin-right: 24px;
     gap : 24px;
+    justify-content: space-between;
 }
 .testimonial{
     width:394.67px;
     height:330px ;
     text-align: center;
     background-color:lightgray
+    justify-content: space-between;
 }
 .button{
     width:211px;
     height:78px;
     background-color: black;
     color:white;
+
 }
 
 .navbar {
@@ -133,4 +136,11 @@ div.mycontainer div {
 
 .threads-icon:hover {
     transform: rotate(360deg);
+}
+.corners {
+    background: #F3F3F3;
+    padding: 15px;
+    width: 70%;
+    height: 100%;
+    margin-bottom : 15px;
 }
