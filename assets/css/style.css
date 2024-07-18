@@ -5,17 +5,22 @@
 .customfont {
     font-family: "My Custom Font", Epilogue, Tahoma;
 }
+
 .container {
     margin-left: 24px;
     margin-right: 24px;
-    gap : 24px;
-    justify-content: space-between;
+}
+div.mycontainer div.profile{
+    width:40% ;
+    margin-top:5%;
+    margin-right: 8%;
+    margin-bottom: 5%;
 }
 div.mycontainer div.testimonial{
-    width: 30%;
+    width: 28%;
     text-align: left;
     background: #F3F3F3;
-    margin: 20px 20px;
+    margin: 2% 2.66%;
 }
 div.mycontainer div.logo{
     width : 14% ;
@@ -29,9 +34,9 @@ div.mycontainer div.product{
 
 }
 div.mycontainer div.work{
-    width:32%;
+    width:28%;
     text-align: center;
-    margin: 8px 8px;
+    margin: 2% 2.66%;
 }
 
 div.mycontainer div.left{
@@ -68,6 +73,15 @@ div.mycontainer div.mxh{
     margin:10%;
 }
 .button{
+     background-color: black;
+     color:white;
+     padding: 20px;
+     width: 33%;
+     height: 33%;
+     margin-top : 10%;
+
+ }
+.button1{
     background-color: black;
     color:white;
     padding: 20px;
