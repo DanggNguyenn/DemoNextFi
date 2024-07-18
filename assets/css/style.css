@@ -11,12 +11,53 @@
     gap : 24px;
     justify-content: space-between;
 }
-.testimonial{
-    width:394.67px;
-    height:330px ;
+div.mycontainer div.testimonial{
+    width:32% ;
     text-align: center;
-    background-color:lightgray
+    background: #F3F3F3;
+    margin: 8px 8px;
+}
+div.mycontainer div.logo{
+    width : 20% ;
+    text-align: center;
+}
+div.mycontainer div.product{
+    width:30% ;
+    text-align: center;
+
+}
+div.mycontainer div.work{
+    width:32%;
+    text-align: center;
+    margin: 8px 8px;
+}
+div.mycontainer div.pre{
+    width: 5%;
+}
+div.mycontainer div.left{
+    width: 25%;
+    float: left;
+    text-align: right;
+    margin-right: 13px;
+    margin-top: 73px;
+}
+
+div.mycontainer div.right{
+    width: 70%;
+    float:left;
+    text-align: left;
+}
+div.mycontainer div.thanhoai{
+    text-align: left;
+}
+div.mycontainer div.mxh{
+    display: flex ;
     justify-content: space-between;
+    text-align: center;
+    gap:15px;
+}
+.like{
+    margin:10%;
 }
 .button{
     background-color: black;
@@ -67,13 +108,14 @@
 
 div.mycontainer {
     width:100%;
+    margin-bottom: 42px;
+
 
 }
 div.mycontainer div {
     width:50%;
     float:left;
-    margin-top: 42px;
-    margin-bottom: 42px;
+    margin: 42px 0;
 }
 .facebook-icon {
     display: inline-block;
