@@ -12,18 +12,20 @@
     justify-content: space-between;
 }
 div.mycontainer div.testimonial{
-    width:32% ;
-    text-align: center;
+    width: 30%;
+    text-align: left;
     background: #F3F3F3;
-    margin: 8px 8px;
+    margin: 20px 20px;
 }
 div.mycontainer div.logo{
-    width : 20% ;
+    width : 14% ;
     text-align: center;
+    margin: 3%;
 }
 div.mycontainer div.product{
-    width:30% ;
+    width: 25%;
     text-align: center;
+    margin: 4%;
 
 }
 div.mycontainer div.work{
@@ -31,15 +33,13 @@ div.mycontainer div.work{
     text-align: center;
     margin: 8px 8px;
 }
-div.mycontainer div.pre{
-    width: 5%;
-}
+
 div.mycontainer div.left{
     width: 25%;
     float: left;
     text-align: right;
     margin-right: 13px;
-    margin-top: 73px;
+    margin-top: 47px;
 }
 
 div.mycontainer div.right{
@@ -49,6 +49,14 @@ div.mycontainer div.right{
 }
 div.mycontainer div.thanhoai{
     text-align: left;
+    width: 40%;
+    margin-right: 20%;
+}
+div.mycontainer div.contact{
+    text-align: left;
+    width: 40%;
+    margin-top:8% ;
+
 }
 div.mycontainer div.mxh{
     display: flex ;
