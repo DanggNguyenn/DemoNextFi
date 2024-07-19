@@ -2,6 +2,7 @@
     font-family: "My Custom Font";
     src: url(http://www.example.org/mycustomfont.ttf) format("truetype");
 }
+
 .customfont {
     font-family: "My Custom Font", Epilogue, Tahoma;
 }
@@ -10,95 +11,40 @@
     margin-left: 24px;
     margin-right: 24px;
 }
-div.mycontainer div.profile{
-    width:40% ;
-    margin-top:5%;
-    margin-right: 8%;
-    margin-bottom: 5%;
-}
-div.mycontainer div.testimonial{
-    width: 28%;
+
+
+
+.contact {
     text-align: left;
-    background: #F3F3F3;
-    margin: 2% 2.66%;
-}
-div.mycontainer div.logo{
-    width : 14% ;
-    text-align: center;
-    margin: 3%;
-}
-div.mycontainer div.product{
-    width: 25%;
-    text-align: center;
-    margin: 4%;
+    width: 100%;
+    margin-top: 8%;
 
 }
-div.mycontainer div.work{
-    width:28%;
-    text-align: center;
-    margin: 2% 2.66%;
-}
 
-div.mycontainer div.left{
-    width: 25%;
-    float: left;
-    text-align: right;
-    margin-right: 13px;
-    margin-top: 47px;
-}
-
-div.mycontainer div.right{
-    width: 70%;
-    float:left;
-    text-align: left;
-}
-div.mycontainer div.thanhoai{
-    text-align: left;
-    width: 40%;
-    margin-right: 20%;
-}
-div.mycontainer div.contact{
-    text-align: left;
-    width: 40%;
-    margin-top:8% ;
-
-}
-div.mycontainer div.mxh{
-    display: flex ;
+.mxh {
+    display: flex;
     justify-content: space-between;
     text-align: center;
-    gap:15px;
+    gap: 15px;
 }
-.like{
-    margin:10%;
-}
-.button{
-     background-color: black;
-     color:white;
-     padding: 20px;
-     width: 33%;
-     height: 33%;
-     margin-top : 10%;
 
- }
-.button1{
+.button {
     background-color: black;
-    color:white;
+    color: white;
     padding: 20px;
-    width: 33%;
-    height: 33%;
-    margin-bottom : 15px;
-
+    width: 210px;
+    height: 78px;
 }
+
 
 .navbar {
-    color : #000000;
+    color: #000000;
     display: flex;
-    align-items: center ;
+    align-items: center;
     flex-wrap: wrap;
-    text-align:left ;
+    text-align: left;
     justify-content: space-between;
-    width : 100%;
+    width: 100%;
 }
 
 .navbar-brand {
@@ -116,29 +62,24 @@ div.mycontainer div.mxh{
 
 }
 
-.nav-item {
-}
+.nav-item {}
 
 .nav-link {
     text-decoration: none;
-    color : black;
+    color: black;
     font-size: 18px;
 }
+
 .nav-link:hover {
     color: red;
 }
 
 div.mycontainer {
-    width:100%;
+    width: 100%;
     margin-bottom: 42px;
+}
 
 
-}
-div.mycontainer div {
-    width:50%;
-    float:left;
-    margin: 42px 0;
-}
 .facebook-icon {
     display: inline-block;
     width: 50px;
@@ -155,6 +96,7 @@ div.mycontainer div {
 .facebook-icon:hover {
     transform: rotate(360deg);
 }
+
 .instagram-icon {
     display: inline-block;
     width: 50px;
@@ -171,6 +113,7 @@ div.mycontainer div {
 .instagram-icon:hover {
     transform: rotate(360deg);
 }
+
 .contrac-icon {
     display: inline-block;
     width: 50px;
@@ -187,6 +130,7 @@ div.mycontainer div {
 .contrac-icon:hover {
     transform: rotate(360deg);
 }
+
 .threads-icon {
     display: inline-block;
     width: 50px;
@@ -203,10 +147,194 @@ div.mycontainer div {
 .threads-icon:hover {
     transform: rotate(360deg);
 }
+
 .corners {
     background: #F3F3F3;
     padding: 15px;
     width: 70%;
     height: 100%;
-    margin-bottom : 15px;
+    margin-bottom: 15px;
+}
+
+/* section profile */
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile img {
+    max-width: 100%;
+}
+
+.profile .profile-inner {
+    max-width: 45%;
+}
+div.mycontainer {
+    margin-top: 5%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+div.myprofile {
+    margin-top: 5%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+}
+.logo {
+    width : 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    max-width: 100%;
+    margin : 65px;
+}
+
+.logo .logo-inner {
+    max-width: 20%;
+}
+.product {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.product img {
+    max-width: 100%;
+}
+.product .product-inner {
+    max-width: 25%;
+    margin: 0px 45px;
+}
+.work {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.work img{
+    max-width: 100%;
+}
+.work .work-inner{
+    max-width: 30%;
+    margin: 20px;
+}
+.testimonial {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.testimonial img{
+    max-width: 100%;
+}
+.testimonial .testimonial-inner{
+    max-width: 30%;
+    margin: 20px;
+    background: #F3F3F3;
+}
+.like{
+    margin:10%;
+}
+.rate{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.rate .rate-right {
+    max-width: 70%;
+    text-align: left;
+}
+.rate .rate-left{
+    max-width: 25%;
+    text-align: right;
+
+}
+.thanhoai {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.thanhoai img{
+    max-width: 100%;
+}
+.thanhoai .thanhoai-inner{
+    max-width: 40%;
+    margin: 20px;
+
+}
+@media only screen and (max-width: 767px) {
+    .profile {
+        display: block;
+    }
+
+    .profile .profile-inner {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .profile .profile-left p {
+        font-size: 13px
+    }
+
+    .profile button {
+        max-width: 100px;
+        height: 40px
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .logo .logo-inner {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .product {
+        display: block;
+    }
+
+    .product .product-inner {
+        width: 100%;
+        max-width: 85%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .work {
+        display: block;
+    }
+
+    .work .work-inner {
+        width: 100%;
+        max-width: 97%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .testimonial {
+        display: block;
+    }
+
+    .testimonial .testimonial-inner {
+        width: 100%;
+        max-width: 93%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .thanhoai {
+        display: block;
+    }
+
+    .thanhoai .thanhoai-inner {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
 }
